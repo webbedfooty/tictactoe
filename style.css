@@ -16,39 +16,26 @@ body {
   padding-left: 30px;
 }
 
-.element
-  <script src="jquery.js"></script>
-  <script src="typed.js"></script>
-  <script>
-    $(function(){
-        $(".element").typed({
-            strings: ["GLOBAL THERMONUCLEAR", "TIC TAC TOE."],
-            typeSpeed: 0
-        });
-    });
-  </script>
-}
-
 .typed-cursor{
     opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-    }
-    @keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-    }
-    @-webkit-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
-    }
-    @-moz-keyframes blink{
-        0% { opacity:1; }
-        50% { opacity:0; }
-        100% { opacity:1; }
+    -webkit-animation: blink 0.9s infinite;
+    -moz-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 .header {

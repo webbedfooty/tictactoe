@@ -3,7 +3,18 @@
 <head>
   <title>CPE1704TKS</title>
   <link rel="stylesheet" type="text/css" href="./style.css">
+<script src="./js/jquery-2.2.4.js"></script>
+<script src="./js/typed.js"></script>
   <script src="./script.js"></script>
+
+  <script>
+    $(function(){
+        $(".typed").typed({
+            strings: ["GLOBAL <br> THERMONUCLEAR <br> TIC TAC TOE"],
+            typeSpeed: 35
+        });
+    });
+</script>
 </head>
 <body>
   <!-- Simple audio playback -->
@@ -13,9 +24,9 @@
 <div class="wrap">
 <header class="header">
   <br>
-    <h1>GLOBAL THERMONUCLEAR TIC TAC TOE</h1>
+    <h1 class="typed"></h1>
   <br>
-<span class="element"></span>
+
 </header>
 
 
